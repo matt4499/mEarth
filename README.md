@@ -7,3 +7,4 @@
     - Check the “Developer Mode” button to enable it.
     - Click on the “Load Unpacked Extension…” button.
     - Select your extension’s directory
+- browse earth.google.com and you should see magic start happening
