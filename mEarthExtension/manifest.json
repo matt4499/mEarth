@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "mEarth Extension",
+	"description": "For use with mEarth Discord Presence",
+    "version": "1.0",
+    "permissions": ["tabs", "webRequest"],
+    "content_scripts": [
+        {
+          "matches": ["*://earth.google.com/*"],
+          "js": ["background.js"]
+        }
+      ]
+}
